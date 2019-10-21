@@ -1,4 +1,14 @@
 #dailyPlanner {
-background-color: lightskyblue
+background-color: lightskyblue;
+
+}
+.form-control {
+background-color: lightpink;
+}
+
+.currentMoment {
+position: right 
+
+
 
 }
