@@ -15,12 +15,12 @@ $(".form-control").each(function(){
           $(this).css("backgroundColor","purple")
             $(this).addClass()
             console.log("made a match")
-       } else if(1===1){
-
-   }
+            }else if(1===1){
+                
+   };
         $("button").click(function(){
            var task = $("#comment").val()
-                var noteForMessage = "do a task"
+                var noteForMessage = val
             $("#comment").val(noteForMessage)
             localStorage.setItem("task 9:00",task)
             var something = localStorage.getItem("task 9:00")

@@ -10,5 +10,22 @@ background-color: lightpink;
 position: right 
 
 
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+  }
+
+body {
+background-color: grey;
+
+}
+header {
+background-color: grey;
+
+}
+footer {
+background-color: grey;
 
 }
