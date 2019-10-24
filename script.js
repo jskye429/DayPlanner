@@ -69,6 +69,76 @@ $(document).ready(function () {
       localStorage.setItem("task 9:00", task)
       var something = localStorage.getItem("task 9:00")
       console.log("localStorage" + something)
+
+
+    $("button").click(function () {
+      var task = $("task 10:00").val()
+      var noteForMessage = val
+      $("#comment2").val(task)
+      localStorage.setItem("task 10:00", task)
+      var something = localStorage.getItem("task 10:00")
+      console.log("localStorage" + something)
+
+
+    $("button").click(function () {
+      var task = $("task 11:00").val()
+      var noteForMessage = val
+      $("#comment3").val(task)
+      localStorage.setItem("task 11:00", task)
+      var something = localStorage.getItem("task 11:00")
+      console.log("localStorage" + something)
+    
+    
+      $("button").click(function () {
+        var task = $("task 12:00").val()
+        var noteForMessage = val
+        $("#comment4").val(task)
+        localStorage.setItem("task 12:00", task)
+        var something = localStorage.getItem("task 12:00")
+        console.log("localStorage" + something)
+      
+      
+      $("button").click(function () {
+      var task = $("task 13:00").val()
+      var noteForMessage = val
+      $("#comment5").val(task)
+      localStorage.setItem("task 13:00", task)
+      var something = localStorage.getItem("task 13:00")
+      console.log("localStorage" + something)
+
+
+    $("button").click(function () {
+      var task = $("task 14:00").val()
+      var noteForMessage = val
+      $("#comment6").val(task)
+      localStorage.setItem("task 14:00", task)
+      var something = localStorage.getItem("task 14:00")
+      console.log("localStorage" + something)
+    
+    $("button").click(function () {
+        var task = $("task 15:00").val()
+        var noteForMessage = val
+        $("#comment7").val(task)
+        localStorage.setItem("task 15:00", task)
+        var something = localStorage.getItem("task 15:00")
+        console.log("localStorage" + something)
+    
+    
+        $("button8").click(function () {
+          var task = $("task 16:00").val()
+          var noteForMessage = val
+          $("#comment8").val(task)
+          localStorage.setItem("task 16:00", task)
+          var something = localStorage.getItem("task 16:00")
+          console.log("localStorage" + something)
+    
+          $("button9").click(function () {
+            var task = $("task 17:00").val()
+            var noteForMessage = val
+            $("#comment").val(task)
+            localStorage.setItem("task 17:00", task)
+            var something = localStorage.getItem("task 17:00")
+            console.log("localStorage" + something)
     
     // use for loop to make this cleaner otherwise just copy paste 9 times 
 
@@ -78,5 +148,14 @@ $(document).ready(function () {
   });
 
 });
+});
+});
+});
+});
+});
+});
+});
+});
+
 
 // add local storage bit on startup of page 
